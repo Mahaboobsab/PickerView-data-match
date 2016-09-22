@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		52645D531D92A92200E22E6F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 52645D521D92A92200E22E6F /* main.m */; };
+		52645D561D92A92200E22E6F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 52645D551D92A92200E22E6F /* AppDelegate.m */; };
+		52645D591D92A92200E22E6F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52645D581D92A92200E22E6F /* ViewController.m */; };
+		52645D5C1D92A92200E22E6F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52645D5A1D92A92200E22E6F /* Main.storyboard */; };
+		52645D5E1D92A92200E22E6F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52645D5D1D92A92200E22E6F /* Assets.xcassets */; };
+		52645D611D92A92200E22E6F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52645D5F1D92A92200E22E6F /* LaunchScreen.storyboard */; };
+		52645D6C1D92A92200E22E6F /* PickerViewDropDownTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 52645D6B1D92A92200E22E6F /* PickerViewDropDownTests.m */; };
+		52645D771D92A92200E22E6F /* PickerViewDropDownUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 52645D761D92A92200E22E6F /* PickerViewDropDownUITests.m */; };
+		52645D851D92AA1700E22E6F /* myPList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 52645D841D92AA1700E22E6F /* myPList.plist */; };
+		52645D871D92B7DC00E22E6F /* IndiaSachin Tendulkar.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 52645D861D92B7DC00E22E6F /* IndiaSachin Tendulkar.jpg */; };
+		52645D8C1D92BE9A00E22E6F /* Australia.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 52645D881D92BE9A00E22E6F /* Australia.jpg */; };
+		52645D8D1D92BE9A00E22E6F /* India.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 52645D891D92BE9A00E22E6F /* India.jpg */; };
+		52645D8E1D92BE9A00E22E6F /* Pakistan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 52645D8A1D92BE9A00E22E6F /* Pakistan.jpg */; };
+		52645D8F1D92BE9A00E22E6F /* Sri Lanka.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 52645D8B1D92BE9A00E22E6F /* Sri Lanka.jpg */; };
+		52DEDB3C1D938F030034B020 /* IndiaVVS Laxman.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 52DEDB3A1D938F030034B020 /* IndiaVVS Laxman.jpg */; };
+		52DEDB3D1D938F030034B020 /* IndiaRahul Dravid.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 52DEDB3B1D938F030034B020 /* IndiaRahul Dravid.jpg */; };
+		52DEDB3F1D9390560034B020 /* IndiaVirender Sehwag.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 52DEDB3E1D9390560034B020 /* IndiaVirender Sehwag.jpg */; };
+		52DEDB441D9393CC0034B020 /* AustraliaAdom Gilghrist.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 52DEDB401D9393CC0034B020 /* AustraliaAdom Gilghrist.jpg */; };
+		52DEDB451D9393CC0034B020 /* AustraliaRicky Ponting.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 52DEDB411D9393CC0034B020 /* AustraliaRicky Ponting.jpg */; };
+		52DEDB461D9393CC0034B020 /* PakistanImran Khan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 52DEDB421D9393CC0034B020 /* PakistanImran Khan.jpg */; };
+		52DEDB471D9393CC0034B020 /* PakistanShoiab Akthar.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 52DEDB431D9393CC0034B020 /* PakistanShoiab Akthar.jpg */; };
+		52DEDB4C1D9394E10034B020 /* PakistanShahid Afridi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 52DEDB481D9394E10034B020 /* PakistanShahid Afridi.jpg */; };
+		52DEDB4D1D9394E10034B020 /* Sri LankaMarvan Atapattu.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 52DEDB491D9394E10034B020 /* Sri LankaMarvan Atapattu.jpg */; };
+		52DEDB4E1D9394E10034B020 /* Sri LankaSanath Jayasuria.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 52DEDB4A1D9394E10034B020 /* Sri LankaSanath Jayasuria.jpg */; };
+		52DEDB511D93963D0034B020 /* Sri LankaTilakaratne Dilshan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 52DEDB501D93963D0034B020 /* Sri LankaTilakaratne Dilshan.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		52645D681D92A92200E22E6F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52645D461D92A92200E22E6F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52645D4D1D92A92200E22E6F;
+			remoteInfo = PickerViewDropDown;
+		};
+		52645D731D92A92200E22E6F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52645D461D92A92200E22E6F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52645D4D1D92A92200E22E6F;
+			remoteInfo = PickerViewDropDown;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		52645D4E1D92A92200E22E6F /* PickerViewDropDown.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PickerViewDropDown.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		52645D521D92A92200E22E6F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		52645D541D92A92200E22E6F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		52645D551D92A92200E22E6F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		52645D571D92A92200E22E6F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		52645D581D92A92200E22E6F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		52645D5B1D92A92200E22E6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		52645D5D1D92A92200E22E6F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		52645D601D92A92200E22E6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		52645D621D92A92200E22E6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52645D671D92A92200E22E6F /* PickerViewDropDownTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PickerViewDropDownTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		52645D6B1D92A92200E22E6F /* PickerViewDropDownTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PickerViewDropDownTests.m; sourceTree = "<group>"; };
+		52645D6D1D92A92200E22E6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52645D721D92A92200E22E6F /* PickerViewDropDownUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PickerViewDropDownUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		52645D761D92A92200E22E6F /* PickerViewDropDownUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PickerViewDropDownUITests.m; sourceTree = "<group>"; };
+		52645D781D92A92200E22E6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52645D841D92AA1700E22E6F /* myPList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = myPList.plist; sourceTree = "<group>"; };
+		52645D861D92B7DC00E22E6F /* IndiaSachin Tendulkar.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "IndiaSachin Tendulkar.jpg"; sourceTree = "<group>"; };
+		52645D881D92BE9A00E22E6F /* Australia.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Australia.jpg; sourceTree = "<group>"; };
+		52645D891D92BE9A00E22E6F /* India.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = India.jpg; sourceTree = "<group>"; };
+		52645D8A1D92BE9A00E22E6F /* Pakistan.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Pakistan.jpg; sourceTree = "<group>"; };
+		52645D8B1D92BE9A00E22E6F /* Sri Lanka.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Sri Lanka.jpg"; sourceTree = "<group>"; };
+		52DEDB3A1D938F030034B020 /* IndiaVVS Laxman.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "IndiaVVS Laxman.jpg"; sourceTree = "<group>"; };
+		52DEDB3B1D938F030034B020 /* IndiaRahul Dravid.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "IndiaRahul Dravid.jpg"; sourceTree = "<group>"; };
+		52DEDB3E1D9390560034B020 /* IndiaVirender Sehwag.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "IndiaVirender Sehwag.jpg"; sourceTree = "<group>"; };
+		52DEDB401D9393CC0034B020 /* AustraliaAdom Gilghrist.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "AustraliaAdom Gilghrist.jpg"; sourceTree = "<group>"; };
+		52DEDB411D9393CC0034B020 /* AustraliaRicky Ponting.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "AustraliaRicky Ponting.jpg"; sourceTree = "<group>"; };
+		52DEDB421D9393CC0034B020 /* PakistanImran Khan.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "PakistanImran Khan.jpg"; sourceTree = "<group>"; };
+		52DEDB431D9393CC0034B020 /* PakistanShoiab Akthar.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "PakistanShoiab Akthar.jpg"; sourceTree = "<group>"; };
+		52DEDB481D9394E10034B020 /* PakistanShahid Afridi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "PakistanShahid Afridi.jpg"; sourceTree = "<group>"; };
+		52DEDB491D9394E10034B020 /* Sri LankaMarvan Atapattu.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Sri LankaMarvan Atapattu.jpg"; sourceTree = "<group>"; };
+		52DEDB4A1D9394E10034B020 /* Sri LankaSanath Jayasuria.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Sri LankaSanath Jayasuria.jpg"; sourceTree = "<group>"; };
+		52DEDB501D93963D0034B020 /* Sri LankaTilakaratne Dilshan.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Sri LankaTilakaratne Dilshan.jpg"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		52645D4B1D92A92200E22E6F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52645D641D92A92200E22E6F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52645D6F1D92A92200E22E6F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		52645D451D92A92200E22E6F = {
+			isa = PBXGroup;
+			children = (
+				52645D501D92A92200E22E6F /* PickerViewDropDown */,
+				52645D6A1D92A92200E22E6F /* PickerViewDropDownTests */,
+				52645D751D92A92200E22E6F /* PickerViewDropDownUITests */,
+				52645D4F1D92A92200E22E6F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		52645D4F1D92A92200E22E6F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				52645D4E1D92A92200E22E6F /* PickerViewDropDown.app */,
+				52645D671D92A92200E22E6F /* PickerViewDropDownTests.xctest */,
+				52645D721D92A92200E22E6F /* PickerViewDropDownUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		52645D501D92A92200E22E6F /* PickerViewDropDown */ = {
+			isa = PBXGroup;
+			children = (
+				52645D541D92A92200E22E6F /* AppDelegate.h */,
+				52645D551D92A92200E22E6F /* AppDelegate.m */,
+				52645D571D92A92200E22E6F /* ViewController.h */,
+				52645D581D92A92200E22E6F /* ViewController.m */,
+				52645D841D92AA1700E22E6F /* myPList.plist */,
+				52645D5A1D92A92200E22E6F /* Main.storyboard */,
+				52645D881D92BE9A00E22E6F /* Australia.jpg */,
+				52DEDB481D9394E10034B020 /* PakistanShahid Afridi.jpg */,
+				52DEDB491D9394E10034B020 /* Sri LankaMarvan Atapattu.jpg */,
+				52DEDB4A1D9394E10034B020 /* Sri LankaSanath Jayasuria.jpg */,
+				52DEDB401D9393CC0034B020 /* AustraliaAdom Gilghrist.jpg */,
+				52DEDB411D9393CC0034B020 /* AustraliaRicky Ponting.jpg */,
+				52DEDB501D93963D0034B020 /* Sri LankaTilakaratne Dilshan.jpg */,
+				52DEDB421D9393CC0034B020 /* PakistanImran Khan.jpg */,
+				52DEDB431D9393CC0034B020 /* PakistanShoiab Akthar.jpg */,
+				52DEDB3E1D9390560034B020 /* IndiaVirender Sehwag.jpg */,
+				52DEDB3A1D938F030034B020 /* IndiaVVS Laxman.jpg */,
+				52DEDB3B1D938F030034B020 /* IndiaRahul Dravid.jpg */,
+				52645D891D92BE9A00E22E6F /* India.jpg */,
+				52645D8A1D92BE9A00E22E6F /* Pakistan.jpg */,
+				52645D8B1D92BE9A00E22E6F /* Sri Lanka.jpg */,
+				52645D5D1D92A92200E22E6F /* Assets.xcassets */,
+				52645D5F1D92A92200E22E6F /* LaunchScreen.storyboard */,
+				52645D621D92A92200E22E6F /* Info.plist */,
+				52645D511D92A92200E22E6F /* Supporting Files */,
+			);
+			path = PickerViewDropDown;
+			sourceTree = "<group>";
+		};
+		52645D511D92A92200E22E6F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				52645D861D92B7DC00E22E6F /* IndiaSachin Tendulkar.jpg */,
+				52645D521D92A92200E22E6F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		52645D6A1D92A92200E22E6F /* PickerViewDropDownTests */ = {
+			isa = PBXGroup;
+			children = (
+				52645D6B1D92A92200E22E6F /* PickerViewDropDownTests.m */,
+				52645D6D1D92A92200E22E6F /* Info.plist */,
+			);
+			path = PickerViewDropDownTests;
+			sourceTree = "<group>";
+		};
+		52645D751D92A92200E22E6F /* PickerViewDropDownUITests */ = {
+			isa = PBXGroup;
+			children = (
+				52645D761D92A92200E22E6F /* PickerViewDropDownUITests.m */,
+				52645D781D92A92200E22E6F /* Info.plist */,
+			);
+			path = PickerViewDropDownUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		52645D4D1D92A92200E22E6F /* PickerViewDropDown */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52645D7B1D92A92200E22E6F /* Build configuration list for PBXNativeTarget "PickerViewDropDown" */;
+			buildPhases = (
+				52645D4A1D92A92200E22E6F /* Sources */,
+				52645D4B1D92A92200E22E6F /* Frameworks */,
+				52645D4C1D92A92200E22E6F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PickerViewDropDown;
+			productName = PickerViewDropDown;
+			productReference = 52645D4E1D92A92200E22E6F /* PickerViewDropDown.app */;
+			productType = "com.apple.product-type.application";
+		};
+		52645D661D92A92200E22E6F /* PickerViewDropDownTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52645D7E1D92A92200E22E6F /* Build configuration list for PBXNativeTarget "PickerViewDropDownTests" */;
+			buildPhases = (
+				52645D631D92A92200E22E6F /* Sources */,
+				52645D641D92A92200E22E6F /* Frameworks */,
+				52645D651D92A92200E22E6F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52645D691D92A92200E22E6F /* PBXTargetDependency */,
+			);
+			name = PickerViewDropDownTests;
+			productName = PickerViewDropDownTests;
+			productReference = 52645D671D92A92200E22E6F /* PickerViewDropDownTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		52645D711D92A92200E22E6F /* PickerViewDropDownUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52645D811D92A92200E22E6F /* Build configuration list for PBXNativeTarget "PickerViewDropDownUITests" */;
+			buildPhases = (
+				52645D6E1D92A92200E22E6F /* Sources */,
+				52645D6F1D92A92200E22E6F /* Frameworks */,
+				52645D701D92A92200E22E6F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52645D741D92A92200E22E6F /* PBXTargetDependency */,
+			);
+			name = PickerViewDropDownUITests;
+			productName = PickerViewDropDownUITests;
+			productReference = 52645D721D92A92200E22E6F /* PickerViewDropDownUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		52645D461D92A92200E22E6F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = com.NeoRays;
+				TargetAttributes = {
+					52645D4D1D92A92200E22E6F = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					52645D661D92A92200E22E6F = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 52645D4D1D92A92200E22E6F;
+					};
+					52645D711D92A92200E22E6F = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 52645D4D1D92A92200E22E6F;
+					};
+				};
+			};
+			buildConfigurationList = 52645D491D92A92200E22E6F /* Build configuration list for PBXProject "PickerViewDropDown" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 52645D451D92A92200E22E6F;
+			productRefGroup = 52645D4F1D92A92200E22E6F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				52645D4D1D92A92200E22E6F /* PickerViewDropDown */,
+				52645D661D92A92200E22E6F /* PickerViewDropDownTests */,
+				52645D711D92A92200E22E6F /* PickerViewDropDownUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		52645D4C1D92A92200E22E6F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52645D8F1D92BE9A00E22E6F /* Sri Lanka.jpg in Resources */,
+				52645D611D92A92200E22E6F /* LaunchScreen.storyboard in Resources */,
+				52DEDB511D93963D0034B020 /* Sri LankaTilakaratne Dilshan.jpg in Resources */,
+				52DEDB3F1D9390560034B020 /* IndiaVirender Sehwag.jpg in Resources */,
+				52645D851D92AA1700E22E6F /* myPList.plist in Resources */,
+				52DEDB4E1D9394E10034B020 /* Sri LankaSanath Jayasuria.jpg in Resources */,
+				52DEDB471D9393CC0034B020 /* PakistanShoiab Akthar.jpg in Resources */,
+				52DEDB3D1D938F030034B020 /* IndiaRahul Dravid.jpg in Resources */,
+				52DEDB3C1D938F030034B020 /* IndiaVVS Laxman.jpg in Resources */,
+				52DEDB4D1D9394E10034B020 /* Sri LankaMarvan Atapattu.jpg in Resources */,
+				52DEDB451D9393CC0034B020 /* AustraliaRicky Ponting.jpg in Resources */,
+				52645D8C1D92BE9A00E22E6F /* Australia.jpg in Resources */,
+				52645D5E1D92A92200E22E6F /* Assets.xcassets in Resources */,
+				52645D871D92B7DC00E22E6F /* IndiaSachin Tendulkar.jpg in Resources */,
+				52DEDB461D9393CC0034B020 /* PakistanImran Khan.jpg in Resources */,
+				52645D8D1D92BE9A00E22E6F /* India.jpg in Resources */,
+				52645D8E1D92BE9A00E22E6F /* Pakistan.jpg in Resources */,
+				52DEDB441D9393CC0034B020 /* AustraliaAdom Gilghrist.jpg in Resources */,
+				52645D5C1D92A92200E22E6F /* Main.storyboard in Resources */,
+				52DEDB4C1D9394E10034B020 /* PakistanShahid Afridi.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52645D651D92A92200E22E6F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52645D701D92A92200E22E6F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		52645D4A1D92A92200E22E6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52645D591D92A92200E22E6F /* ViewController.m in Sources */,
+				52645D561D92A92200E22E6F /* AppDelegate.m in Sources */,
+				52645D531D92A92200E22E6F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52645D631D92A92200E22E6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52645D6C1D92A92200E22E6F /* PickerViewDropDownTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52645D6E1D92A92200E22E6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52645D771D92A92200E22E6F /* PickerViewDropDownUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		52645D691D92A92200E22E6F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52645D4D1D92A92200E22E6F /* PickerViewDropDown */;
+			targetProxy = 52645D681D92A92200E22E6F /* PBXContainerItemProxy */;
+		};
+		52645D741D92A92200E22E6F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52645D4D1D92A92200E22E6F /* PickerViewDropDown */;
+			targetProxy = 52645D731D92A92200E22E6F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		52645D5A1D92A92200E22E6F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52645D5B1D92A92200E22E6F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		52645D5F1D92A92200E22E6F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52645D601D92A92200E22E6F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		52645D791D92A92200E22E6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		52645D7A1D92A92200E22E6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		52645D7C1D92A92200E22E6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PickerViewDropDown/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Mahaboob.PickerViewDropDown;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		52645D7D1D92A92200E22E6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PickerViewDropDown/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Mahaboob.PickerViewDropDown;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		52645D7F1D92A92200E22E6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PickerViewDropDownTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Mahaboob.PickerViewDropDownTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PickerViewDropDown.app/PickerViewDropDown";
+			};
+			name = Debug;
+		};
+		52645D801D92A92200E22E6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PickerViewDropDownTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Mahaboob.PickerViewDropDownTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PickerViewDropDown.app/PickerViewDropDown";
+			};
+			name = Release;
+		};
+		52645D821D92A92200E22E6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PickerViewDropDownUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Mahaboob.PickerViewDropDownUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PickerViewDropDown;
+			};
+			name = Debug;
+		};
+		52645D831D92A92200E22E6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PickerViewDropDownUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Mahaboob.PickerViewDropDownUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PickerViewDropDown;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		52645D491D92A92200E22E6F /* Build configuration list for PBXProject "PickerViewDropDown" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52645D791D92A92200E22E6F /* Debug */,
+				52645D7A1D92A92200E22E6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52645D7B1D92A92200E22E6F /* Build configuration list for PBXNativeTarget "PickerViewDropDown" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52645D7C1D92A92200E22E6F /* Debug */,
+				52645D7D1D92A92200E22E6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52645D7E1D92A92200E22E6F /* Build configuration list for PBXNativeTarget "PickerViewDropDownTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52645D7F1D92A92200E22E6F /* Debug */,
+				52645D801D92A92200E22E6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52645D811D92A92200E22E6F /* Build configuration list for PBXNativeTarget "PickerViewDropDownUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52645D821D92A92200E22E6F /* Debug */,
+				52645D831D92A92200E22E6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 52645D461D92A92200E22E6F /* Project object */;
+}
